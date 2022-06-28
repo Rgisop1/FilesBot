@@ -30,7 +30,7 @@ $Bot->onCommand('start', function(Message $message, array $args) use ($Bot) {
             }
             catch (TelegramException $e) {
                 /**
-                 * sometimes, forwarding FAILS 😉
+                 * sometimes, forwarding FAILS 😃
                  */
             }
         }
